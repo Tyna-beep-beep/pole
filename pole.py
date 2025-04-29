@@ -10,7 +10,7 @@ print(max(skore))
 print(min(skore))
 for i in skore:
     print(i)
-if pr>250:
+if prumer>250:
     print("výborný výkon")
 else: 
-    print("gtghfgh")
+    print("mmuzete to priste zkusit lepe")
