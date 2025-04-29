@@ -1,15 +1,16 @@
-skola = ["učení", "knihy", "židle", "učitel", "lavice" , "matematika"]
+skore = []
+for i in range(10):
+    cislo = int(input("Zadejte skore"))
+    skore.append(cislo)
 
-print(len(skola))
-
-for i in skola:
+print(skore)
+prumer=sum(skore)/10
+print(prumer)
+print(max(skore))
+print(min(skore))
+for i in skore:
     print(i)
-
-dalsiSkola = input("Zadej dalsi skolu")
-skola.append(dalsiSkola)
-
-skola.remove("židle")
-
-print(skola.sort())
-
-print(skola.reverse())
+if pr>250:
+    print("výborný výkon")
+else: 
+    print("gtghfgh")
